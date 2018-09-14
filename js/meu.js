@@ -53,7 +53,7 @@ function validaForm() {
 
 
         event.preventDefault();
-    });
+    })
 }
 
 
@@ -72,7 +72,7 @@ function scrollSuave() {
 
     });
 
-});
+}
 
 
 
