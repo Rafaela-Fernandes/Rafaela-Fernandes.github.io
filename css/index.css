@@ -1,3 +1,29 @@
+.titulo{
+      animation-duration: 3s;
+       animation-name: teste;
+   
+    animation-iteration-count:;
+    animation-direction: alternate;
+}
+
+@keyframes teste{
+    
+    from{
+          margin-left: 50%;
+      
+   
+    }
+    
+    to{
+    
+       margin-left: 0%;
+      
+    }
+    
+    
+
+}
+
 
 
 

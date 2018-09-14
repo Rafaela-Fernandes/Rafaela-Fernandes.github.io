@@ -70,8 +70,8 @@
 
 
         <!-- texto destaque-->
-        <div class="row bg-primary">
-            <div class="text-white" id="texto-destaque">
+        <div class="row bg-primary ">
+            <div class="text-white " id="texto-destaque">
 
                 <h1>THE LAST JEDI</h1>
                 <small>Lorem ipsum dolor sit amet, cum ne omnes delectus. An pro mutat tractatos, <br> eu quo debitis intellegam. </small>
@@ -83,7 +83,7 @@
             </div>
 
             <div class="" id="btn-rolagem">
-                <a href="#sessao-sobre" class="scroll"><img src="img/seta.png" alt="" height="" width=""></a>
+                <a href="#sessao-sobre" class="scroll" onclick="clicar()"><img src="img/seta.png" alt="" height="" width=""></a>
             </div>
         </div>
 
@@ -215,7 +215,15 @@
 
     </footer>
 
-
+   <script>
+    
+       function clicar(){
+           var imagem = document.querySelector('#img-sobre');
+           imagem.className = "titulo";
+       }
+    
+    </script>
+    
 
 
 
