@@ -4,6 +4,13 @@ $(document).ready(function (){
     validaForm();
     scrollSuave() ;
     InicioPagina(); 
+    
+    // animacao simples pra surgir imagem da sessao sobre
+    $('#animacao').click(function(){
+          $('#img-sobre').addClass('animacao-img-sobre');
+    })
+  
+    
 });
 
 
