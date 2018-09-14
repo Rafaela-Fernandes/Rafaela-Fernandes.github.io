@@ -35,7 +35,15 @@ html, body{
 
 
 /*------------------------ CSS HEADER ---------------------*/
-
+#comercial{
+    
+    background-image: url("../img/Imagem1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+    z-index: 1000;
+}
 header{
     
     background-image: url("../img/img-destaque.png");

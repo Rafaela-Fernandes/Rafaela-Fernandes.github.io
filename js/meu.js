@@ -9,7 +9,12 @@ $(document).ready(function (){
     $('#animacao').click(function(){
           $('#img-sobre').addClass('animacao-img-sobre');
     })
-  
+    
+     // gracinha
+    $('#comercial').addClass('animacao-img-sobre');
+     setTimeout(function () {
+         $('#comercial').hide("fade")     
+    }, 4000);
     
 });
 
