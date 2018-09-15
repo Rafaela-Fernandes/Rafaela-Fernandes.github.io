@@ -113,8 +113,8 @@ header nav {
 #btn-rolagem {
 
     position: absolute;
-    bottom: 5%;
-    left: 50%;
+    bottom: 2%;
+    left: 45%;
 }
 
 #btn-rolagem:hover {
@@ -203,7 +203,7 @@ footer h2,
 
 footer button {
     background: #ffe81f;
-    padding: 1rem 7rem !important;
+    width: 50%;
 }
 
 footer button:hover {
@@ -226,7 +226,7 @@ footer button:hover {
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
     
   #texto-destaque {
         min-width: 100%;
@@ -287,5 +287,34 @@ footer button:hover {
     #div-noticias img{
         height: 500px;
     }
+    
+    #sessao-sobre{
+        padding: 2rem 1rem !important;
+    }
+    
+    #div-sobre h2,#div-sobre p{
+        text-align: center;
+        margin-right: 0 !important
+    }
+    
+    
+    .row{
+       
+        margin-right: 0 ;
+        margin-left: 0;
+    }
 }
 
+@media screen and (max-width: 425px){
+#div-noticias img {
+    height: 200px;
+}
+    .menu a{
+        padding: 0 0.5rem !important
+    }
+    
+    footer form {
+    margin-top: 15%;
+    padding: 0 !important
+   }
+}
