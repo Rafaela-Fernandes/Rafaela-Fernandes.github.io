@@ -1,115 +1,128 @@
-.animacao-img-sobre{
-      animation-duration: 2s;
-       animation-name: teste;
-   
-    animation-iteration-count:;
+.animacao-img-sobre {
+    animation-duration: 2s;
+    animation-name: teste;
+
+    animation-iteration-count: ;
     animation-direction: alternate;
 }
 
-@keyframes teste{
-    
-    from{
-          margin-left: 50%;
-      
-   
+@keyframes teste {
+
+    from {
+        margin-left: 50%;
+
+
     }
-    
-    to{
-    
-       margin-left: 0%;
-      
+
+    to {
+
+        margin-left: 0%;
+
     }
-    
-    
+
+
 
 }
 
 
 
 
-html, body{
-    
+html,
+body {
+
     height: 100%;
 
 }
 
 
 /*------------------------ CSS HEADER ---------------------*/
-#comercial{
-    
+
+#comercial {
+
     background-image: url("../img/Imagem1.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    height: 100%;
+    height: auto;
     z-index: 1000;
 }
-header{
-    
+
+header {
+
     background-image: url("../img/img-destaque.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     height: 100%;
-  
+
 }
 
-header nav{
-  padding: 3rem 5rem 3rem 10rem !important;
+header nav {
+    padding: 3rem 5rem 3rem 10rem !important;
 }
 
-.menu a{
-    
-    color:#FFF;
+.menu a {
+
+    color: #FFF;
     font-weight: 600;
     text-decoration: none;
 }
-.menu a:hover{
+
+.menu a:hover {
     color: #ffe81f;
     border-bottom: solid #FFe81F 1px;
 }
 
-.menu li{
-    
+.menu li {
+
     padding: 0 1.3rem 0 1.3rem
 }
-#texto-destaque{
-    
+
+#texto-destaque {
+
     min-width: 80%;
     position: absolute;
-    top:43%;
+    top: 43%;
     left: 10%
 }
 
-#texto-destaque h1{
+#texto-destaque h1 {
     font-weight: 700;
     font-size: 4rem;
 }
-#texto-destaque small{
+
+#texto-destaque small {
     font-size: 1.3rem;
 }
-#texto-destaque button{
+
+#texto-destaque button {
     border-radius: 50px;
     background: rgba(255, 255, 255, 0);
     border: solid #ffe81f 2px;
-    padding: 1.3rem 5rem ;
+    padding: 1.3rem 5rem;
     color: #ffe81f;
     font-weight: 700;
 }
 
-#texto-destaque button:hover{
-    background:#ffe81f;
+#texto-destaque button:hover {
+    background: #ffe81f;
     transition: all 1s;
-    color:#50490a;
+    color: #50490a;
 }
 
-#btn-rolagem{
-  
+#btn-rolagem {
+
     position: absolute;
     bottom: 5%;
-   left: 50%; }
+    left: 50%;
+}
 
-#div-mobile{
+#btn-rolagem:hover {
+    background: #343a40;
+    transition: all 1s;
+}
+
+#div-mobile {
     display: none;
 }
 
@@ -117,29 +130,28 @@ header nav{
 
 /*------------------------ CSS SESSÃO SOBRE e NOTICIA ---------------------*/
 
-
-#div-sobre p{
+#div-sobre p {
     line-height: 2.5em;
     text-align: justify
 }
 
-.font-w{
+.font-w {
     font-weight: bold;
 }
 
-#div-noticias div{
+#div-noticias div {
     border: none !important;
-    
+
 }
 
-.card div{
-   
+.card div {
+
     padding: 1.2rem 5rem 0 0;
 }
 
-.card-b:hover{
-     cursor: pointer;
-   
+.card-b:hover {
+    cursor: pointer;
+
     opacity: 0.8;
     transition: all 2s;
     -webkit-transform: scale(1.3);
@@ -150,59 +162,63 @@ header nav{
 
 
 .voltar-ao-topo {
-	position: absolute;
-	bottom: 1em;
-	right: 0;
-	text-decoration: none;
-	color: white;
-	background-color: rgba(58, 111, 139, 0.9);
-	padding: 0.3em;
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(58, 111, 139, 0.9);
+    padding: 0.3em;
     z-index: 99;
 }
+
 .voltar-ao-topo:hover {
-	background-color: rgba(14, 43, 59, 0.82);
-	text-decoration: none;
-	color: white;
+    background-color: rgba(14, 43, 59, 0.82);
+    text-decoration: none;
+    color: white;
     transition: all 1s;
 }
 
 /*------------------------ CSS FOOTER ---------------------*/
 
-footer{
-    
+footer {
+
     background-image: url("../img/img-footer.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    
-  
+
+
 }
 
-footer form{
+footer form {
     margin-top: 15%;
     padding: 0 3rem !important;
 }
-footer h2, #lista-contatos h5{
+
+footer h2,
+#lista-contatos h5 {
     color: #ffe81f
 }
 
-footer button{
+footer button {
     background: #ffe81f;
     padding: 1rem 7rem !important;
 }
 
-footer button:hover{
-      background: #058acf;
+footer button:hover {
+    background: #058acf;
     transition: all 1s;
-    color:#FFF;
+    color: #FFF;
 }
 
-#lista-contatos ul:first-child{
-    margin-top: 22%; 
-    color:#FFF;
-  
+#lista-contatos ul:first-child {
+    margin-top: 22%;
+    color: #FFF;
+
 }
-#lista-contatos ul li{
+
+#lista-contatos ul li {
     padding: 1rem 0;
 }
 
@@ -210,56 +226,66 @@ footer button:hover{
 
 
 
+@media screen and (max-width: 800px){
+    
+  #texto-destaque {
+        min-width: 100%;
+        position: absolute;
+        text-align: center;
+        left: auto;
+        padding: 0 1rem 0 1rem;
+    }
+    #texto-destaque small {
+        font-size: 1rem;
+    }
 
+    #texto-destaque h1 {
 
-@media (max-width:768px) {
- #texto-destaque{ 
-    min-width: 100%;
-    position: absolute;
-    text-align: center;
-    left: auto;
-    padding: 0 1rem 0 1rem;
-  }
-    #texto-destaque small{
-         font-size: 1rem;
+        font-size: 3.5rem;
     }
     
-    #texto-destaque h1{
-    
-    font-size: 3.5rem;
-}
-    #div-mobile{
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex !important;
+    #div-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex !important;
     }
-    
-    header nav{
+
+    header nav {
         display: none !important;
     }
-    
-    #img-sobre{
-        display: none
+
+    #img-sobre {
+        display: none !important
     }
-    
-    #lista-contatos ul:first-child{
+
+    #lista-contatos ul:first-child {
         margin-top: 10%
     }
-    
+
     #div-noticias {
         flex-direction: column !important;
-       
+
     }
-   
-    .card-b{
-         margin-bottom: 3rem !important;
-         padding: 0 1rem;
+
+    .card-b {
+        margin-bottom: 3rem !important;
+        padding: 0 1rem;
+    }
+
+ 
+    
+    #div-sobre{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    
+    #div-form{
+          flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    
+    #div-noticias img{
+        height: 500px;
     }
 }
-
-
-
-
-
-
 
