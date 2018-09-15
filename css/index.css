@@ -114,7 +114,7 @@ header nav {
 
     position: absolute;
     bottom: 2%;
-    left: 45%;
+    left: 50%;
 }
 
 #btn-rolagem:hover {
@@ -169,7 +169,7 @@ header nav {
     color: white;
     background-color: rgba(58, 111, 139, 0.9);
     padding: 0.3em;
-    z-index: 99;
+  
 }
 
 .voltar-ao-topo:hover {
@@ -226,14 +226,14 @@ footer button:hover {
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 980px){
     
   #texto-destaque {
         min-width: 100%;
         position: absolute;
         text-align: center;
         left: auto;
-        padding: 0 1rem 0 1rem;
+        padding: 1rem 1rem;
     }
     #texto-destaque small {
         font-size: 1rem;
@@ -305,7 +305,7 @@ footer button:hover {
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 500px){
 #div-noticias img {
     height: 200px;
 }
@@ -317,4 +317,21 @@ footer button:hover {
     margin-top: 15%;
     padding: 0 !important
    }
+    
+    #div-mobile{
+       padding: 0 !important 
+    }
+    
+    #texto-destaque h1 {
+    font-size: 2rem;
+}
+    
+    
+    #texto-destaque button {
+
+    padding: 0.5rem 2rem;
+     margin-top: 10% !important
+}
+
+   
 }
