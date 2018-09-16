@@ -71,7 +71,9 @@
         margin-right: 0 !important
     }
     
-    
+    #lista-contatos{
+        margin-left: 10%
+    }
 
 }
 
@@ -88,7 +90,7 @@
     
     footer form {
     margin-top: 15%;
-    padding: 0 !important
+    padding: 1rem !important
    }
     
     #div-mobile{
