@@ -1,12 +1,10 @@
+@media screen and (max-width: 980px) {
 
-
-@media screen and (max-width: 980px){
-    
-  #texto-destaque {
+    #texto-destaque {
         min-width: 100%;
         position: absolute;
         text-align: center;
-        left:auto;
+        left: auto;
         padding: 1rem 1rem;
     }
     #texto-destaque small {
@@ -17,7 +15,7 @@
 
         font-size: 3.5rem;
     }
-    
+
     #div-mobile {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -46,71 +44,77 @@
         padding: 0 1rem;
     }
 
- 
-    
-    #div-sobre{
+
+
+    #div-sobre {
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
-    
-    #div-form{
-          flex: 0 0 100% !important;
+
+    #div-form {
+        flex: 0 0 100% !important;
         max-width: 100% !important;
     }
-    
-    #div-noticias img{
+
+    #div-noticias img {
         height: 500px;
     }
-    
-    #sessao-sobre{
+
+    #sessao-sobre {
         padding: 2rem 1rem !important;
     }
-    
-    #div-sobre h2,#div-sobre p{
+
+    #div-sobre h2,
+    #div-sobre p {
         text-align: center;
         margin-right: 0 !important
     }
-    
-    #lista-contatos{
+
+    #lista-contatos {
         margin-left: 10%
     }
 
+#nav-mobile {
+        position: fixed;
+        z-index: 1000;
+    }
+
 }
 
 
 
 
-@media screen and (max-width: 500px){
-#div-noticias img {
-    height: 200px;
-}
-    .menu a{
+@media screen and (max-width: 500px) {
+    #div-noticias img {
+        height: 200px;
+    }
+    .menu a {
         padding: 0 0.5rem !important
     }
-    
+
     footer form {
-    margin-top: 15%;
-    padding: 1rem !important
-   }
-    
-    #div-mobile{
-       padding: 0 !important 
+        margin-top: 15%;
+        padding: 1rem !important
     }
-    
+
+    #div-mobile {
+        padding: 0 !important
+    }
+
     #texto-destaque h1 {
-    font-size: 2rem;
-}
-    
-    
+        font-size: 2rem;
+    }
+
+
     #texto-destaque button {
 
-    padding: 0.5rem 2rem;
-     margin-top: 10% !important
-}
+        padding: 0.5rem 2rem;
+        margin-top: 10% !important
+    }
 
     #btn-rolagem {
-   
-    left: 40%;
-}
-   
+
+        left: 40%;
+    }
+
 }
