@@ -5,7 +5,7 @@
         position: absolute;
         text-align: center;
         left: auto;
-        padding: 1rem 1rem;
+        padding: 0 1rem;
     }
     #texto-destaque small {
         font-size: 1rem;
@@ -14,6 +14,7 @@
     #texto-destaque h1 {
 
         font-size: 3.5rem;
+        text-align: center;
     }
 
     #div-mobile {
@@ -114,7 +115,7 @@
 
     #btn-rolagem {
 
-        left: 40%;
+        left:43%;
     }
 
 }
