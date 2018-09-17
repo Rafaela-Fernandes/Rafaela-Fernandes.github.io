@@ -1,21 +1,26 @@
 $(document).ready(function (){
-    
+     
     // chamando as funções
+ 
+ 
     validaForm();
     scrollSuave() ;
     InicioPagina(); 
-    
-    // animacao simples pra surgir imagem da sessao sobre
-    $('#animacao').click(function(){
-          $('#img-sobre').addClass('animacao-img-sobre');
-    })
+    animacaoImgSobre();
+   
     
   
     
 });
 
 
+  function animacaoImgSobre(){
+       // animacao simples pra surgir imagem da sessao sobre
+    $('#animacao').click(function(){
+          $('#img-sobre').addClass('animacao-img-sobre');
+    });
    
+  } 
 
 
 function validaForm() {
@@ -90,7 +95,7 @@ function InicioPagina() {
 		event.preventDefault();
 		$('html, body').animate({
 			scrollTop: 0
-		}, 100);
+		},300);
 	});
 
 }
